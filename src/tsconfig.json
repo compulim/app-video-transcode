@@ -4,9 +4,11 @@
     "declarationDir": "../lib/types/",
     "emitDeclarationOnly": true,
     "esModuleInterop": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
+    "lib": ["DOM", "ESNext", "WebWorker"],
     "preserveWatchOutput": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "target": "ESNext"
   }
 }
